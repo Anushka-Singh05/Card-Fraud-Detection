@@ -112,21 +112,6 @@ Steps:
 
 ---
 
-## ⚠️ Important Note
-
-Due to severe class imbalance:
-- High accuracy does NOT guarantee good fraud detection.
-- Precision, Recall, and F1-score should also be evaluated.
-- Confusion matrix analysis is recommended.
-- Techniques like:
-  - SMOTE (Oversampling)
-  - Undersampling
-  - Class weights
-  - Anomaly Detection methods
-should be considered.
-
----
-
 ## 🛠️ Technologies Used
 
 - Python
@@ -136,17 +121,6 @@ should be considered.
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
-
----
-
-## 🚀 Future Improvements
-
-- Use all PCA features instead of only `Amount`
-- Apply SMOTE for class balancing
-- Use ROC-AUC score
-- Evaluate Precision & Recall
-- Try XGBoost / Gradient Boosting
-- Deploy model using Flask or Streamlit
 
 ---
 
